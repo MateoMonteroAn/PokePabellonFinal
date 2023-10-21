@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PokePabellon</string>
+    <string name="busqueda">Busqueda</string>
+    <string name="login">login</string>
+    <string name="carrito">carrito</string>
+    <string-array name="productos">
+        <item>peluche</item>
+        <item>llavero</item>
+        <item>peluche2</item>
+        <item>peluche</item>
+        <item>llavero</item>
+        <item>peluche2</item>
+        <item>peluche</item>
+        <item>llavero</item>
+        <item>peluche2</item>
+        <item>peluche</item>
+        <item>llavero</item>
+        <item>peluche2</item>
+        <item>peluche</item>
+        <item>llavero</item>
+        <item>peluche2</item>
+    </string-array>
+</resources>
