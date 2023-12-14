@@ -4,12 +4,12 @@ import java.io.Serializable;
 
 public class Producto implements Serializable {
     private String nombre;
-    private double precio;
+    private int precio;
     private String descripcion;
     private int id;
     private double size;
     private int cantidad_en_stock;
-    public Producto(String nombre, double precio, String descripcion, int id, double size, int cantidad_en_stock) {
+    public Producto(String nombre, int precio, String descripcion, int id, double size, int cantidad_en_stock) {
         super();
         this.nombre = nombre;
         this.precio = precio;
@@ -57,10 +57,10 @@ public class Producto implements Serializable {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-    public double getPrecio() {
+    public int getPrecio() {
         return precio;
     }
-    public void setPrecio(double precio) {
+    public void setPrecio(int precio) {
         this.precio = precio;
     }
 

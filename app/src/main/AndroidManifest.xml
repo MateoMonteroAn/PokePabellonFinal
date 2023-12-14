@@ -14,7 +14,37 @@
         android:theme="@style/Theme.PokePabellon"
         tools:targetApi="33">
         <activity
-            android:name=".RegistrarActivity"
+            android:name=".RemoveProductoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddPedidosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ADminUsuariosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PedidoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GestionPedidosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConfirmarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PagoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CompraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroActivity"
             android:exported="false" />
         <activity
             android:name=".GestionProductoActivity"

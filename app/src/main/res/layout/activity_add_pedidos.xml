@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/GAddPRoductobotonMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Pagina principal" />
+
+    <EditText
+        android:id="@+id/GAddPRoductoEditTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="nombre"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/GAddPRoductoextoDescripion"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="descripcion"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/GAddPRoductoeditTextNumberPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="precio"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/GAddPRoductoeditTextNumberSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="tamaño"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/GAddPRoductoeditTextNumberCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="cantidad en almacen"
+        android:inputType="number" />
+
+
+    <Button
+        android:id="@+id/GAddPRoductobotonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Añadir Producto" />
+
+
+
+
+
+</LinearLayout>

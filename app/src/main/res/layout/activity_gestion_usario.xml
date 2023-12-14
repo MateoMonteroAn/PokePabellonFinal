@@ -13,16 +13,18 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/GestionActivity.botonMain"
+            android:id="@+id/GestionUActivitybotonP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Pagina principal" />
 
-        <androidx.recyclerview.widget.RecyclerView
+        <ListView
+            android:id="@+id/USerList"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="2" />
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
     </LinearLayout>
 
 </LinearLayout>

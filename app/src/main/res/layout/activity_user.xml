@@ -15,15 +15,6 @@
         android:text="Pagina principal" />
 
     <EditText
-        android:id="@+id/UserActivity_TextoUsuario"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_weight="1"
-        android:ems="10"
-        android:hint="Usuario"
-        android:inputType="textPersonName" />
-
-    <EditText
         android:id="@+id/UserActivity_EditTextCorreo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,18 +34,80 @@
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/UserActivity_botonRecuperarPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Recuperar password" />
-
-    <Button
         android:id="@+id/UserActivity_botonInicioSesion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Iniciar sesion" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/UserActivity_TextoUsuarioR"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/UserActivity_TextoCorreoR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="correo"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/UserActivity_TextoPasswordR"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/UserActivity_TextoPasswordDos2R"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/UserActivity_botonRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Registrarse" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/editTextUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="usuario o correo"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/UserActivity_botonRecuperarPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Recuperar password" />
 
 </LinearLayout>
 

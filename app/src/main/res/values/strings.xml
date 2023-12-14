@@ -3,6 +3,9 @@
     <string name="busqueda">Busqueda</string>
     <string name="login">login</string>
     <string name="carrito">carrito</string>
+    <string name="invitado">invitado</string>
+    <string name="falloLogin">Usuario/Contraseña incorrecto</string>
+    <string name="falloProducto">"el numero debe ser mayor a cero o inferior o igual a "</string>
     <string-array name="productos">
         <item>peluche</item>
         <item>llavero</item>
